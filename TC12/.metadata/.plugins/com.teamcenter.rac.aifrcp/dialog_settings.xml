@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.teamcenter.rac.aif.LeftHandNavigationPane">
+		<item value="true" key="LEFTHAND_NAV_VISIBLE_PROPERTY"/>
+	</section>
+</section>

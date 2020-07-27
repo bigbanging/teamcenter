@@ -1,0 +1,8 @@
+WARN  2020-07-27 14:01:39,230 - Windows Server 2012 R2 () - win32.win32.x86_64 - zh_CN - Java(TM) SE Runtime Environment (1.8.0_144-b01) - null
+WARN  2020-07-27 14:01:40,177 - OS name is Windows Server 2012 R2
+WARN  2020-07-27 14:01:40,178 - JVM vendor is Oracle Corporation
+WARN  2020-07-27 14:01:40,178 - Data model is 64
+WARN  2020-07-27 14:01:45,375 - FCC Interface initialized in 2ms. 1566960nanoSec. ms.
+WARN  2020-07-27 14:01:54,296 - log4j:WARN No appenders could be found for logger (SanLogger).
+WARN  2020-07-27 14:01:54,297 - log4j:WARN Please initialize the log4j system properly.
+WARN  2020-07-27 14:01:54,297 - log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.

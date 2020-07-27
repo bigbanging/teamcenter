@@ -1,0 +1,2 @@
+
+com.teamcenter.rac.ui.perspectives.navigatorPerspective.IWantToSection=newItemAction:Create an Item:com.teamcenter.rac.newItem,newDatasetAction:Create a Dataset:com.teamcenter.rac.newDataset,newProcessAction:Create a Workflow Process:com.teamcenter.rac.newProcess
