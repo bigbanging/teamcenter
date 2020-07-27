@@ -28,14 +28,14 @@ public class TCProcessDialog extends JDialog {
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 		setVisible(true);
-		ImageIcon iconTitle = new ImageIcon(TCUtils.class.getResource("icon.png"));
+		ImageIcon iconTitle = new ImageIcon(TCUtils.class.getResource("/icons/icon.png"));
 		setIconImage(iconTitle.getImage()); //设置标题图标
 		getContentPane().setLayout(new BorderLayout());
 		JPanel panel = new JPanel();
 		panel.setBorder(new EmptyBorder(5, 5, 5, 5));
 		getContentPane().add(panel, BorderLayout.CENTER);
 		panel.setLayout(new BorderLayout());
-		ImageIcon iconInfo = new ImageIcon(TCUtils.class.getResource("info.png"));
+		ImageIcon iconInfo = new ImageIcon(TCUtils.class.getResource("/icons/info.png"));
 		info = new JLabel(iconInfo);
 		info.setHorizontalAlignment(SwingConstants.LEFT);
 		panel.add(info,BorderLayout.NORTH);

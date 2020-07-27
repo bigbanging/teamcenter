@@ -6,12 +6,18 @@
 		<command 
 			name="BOM版本差异比较"
 			id="com.tc.demo.BOMCheck"/>
+		<command 
+			name="CustomView"
+			id="com.tc.demo.CustomView"/>
    	</extension>
    	<extension 
 		point="org.eclipse.ui.handlers">
    		<handler 
 			commandId="com.tc.demo.BOMCheck"
 			class="com.tc.demo.handlers.BOMCheckHandler"/>
+		<handler 
+			commandId="com.tc.demo.CustomView"
+			class="com.tc.demo.handlers.CustomViewHandler"/>
    	</extension>
    
    	<extension point="org.eclipse.ui.menus">
@@ -19,6 +25,25 @@
         	<menu label="demo" mnemonic="M" id="menuexpcostomzation">
           		<command commandId="com.tc.demo.BOMCheck" mnemonic="S" id="com.tc.demo.BOMCheck">
               		<visibleWhen>
+		          		<and>
+                  			<or>
+                    			<reference definitionId="com.teamcenter.rac.pse.inMainView"/>
+                    			<!--
+                        			<reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+                        		-->
+                            </or>
+                            <with variable="rac_command_suppression">
+                            	<not>
+                                	<iterate operator="or">
+                                    	<equals value="com.tc.demo.BOMCheck" />
+                                    </iterate>
+                                </not>
+                            </with>
+                      	</and>
+            		</visibleWhen>
+				</command>
+				<command commandId="com.tc.demo.CustomView" mnemonic="S" id="com.tc.demo.CustomView">
+					<visibleWhen>
 		          		<and>
                   			<or>
                     			<reference definitionId="com.teamcenter.rac.pse.inMainView"/>

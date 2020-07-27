@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<item value="" key="com.teamcenter.rac.commands.login.GROUP"/>
-	<item value="wiely" key="com.teamcenter.rac.commands.login.USERNAME"/>
-	<item value="" key="com.teamcenter.rac.commands.login.ROLE"/>
-	<item value="Tc2tier" key="com.teamcenter.rac.commands.login.SERVERNAME"/>
-</section>
