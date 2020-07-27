@@ -4,11 +4,21 @@
         <IsCompositeMap>
             <Entry ViewKey="com.teamcenter.rac.gettingstarted.GettingStartedPerspective:LeftHandNavigationPart:null" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.gettingstarted.GettingStartedPerspective:com.teamcenter.rac.gettingstarted.GettingStartedView:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:LeftHandNavigationPart:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.pse.PSEView:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:LeftHandNavigationPart:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.processhistory.views.ProcessHistoryView:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.tdv.views.ThumbnailView:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.DetailsView:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.ImpactAnalysisView:null" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.SummaryView:null" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.ViewerView:null" Value="false"/>
         </IsCompositeMap>
         <IsPrimaryMap>
             <Entry ViewKey="com.teamcenter.rac.gettingstarted.GettingStartedPerspective:com.teamcenter.rac.gettingstarted.GettingStartedView:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.pse.PSEView:null" Value="true"/>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.ui.views.SummaryView:null" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.processhistory.views.ProcessHistoryView:null" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.tdv.views.ThumbnailView:null" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.DetailsView:null" Value="false"/>
@@ -19,23 +29,29 @@
         </IsPrimaryMap>
         <IsSecondaryMap>
             <Entry ViewKey="com.teamcenter.rac.gettingstarted.GettingStartedPerspective:com.teamcenter.rac.gettingstarted.GettingStartedView:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.ui.views.SummaryView:null" Value="true"/>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.SummaryView:null" Value="true"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="false"/>
         </IsSecondaryMap>
         <PrimaryIdMap>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.pse.PSEView:null" Value="P_PSEPerspective_PSEView_001"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="P_navigatorPerspective_TCComponentView_001"/>
         </PrimaryIdMap>
         <PrimaryUpIdMap/>
         <CycleIndexMap>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.pse.PSEView:null" Value="0"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="0"/>
         </CycleIndexMap>
         <MainLocalIdMap/>
-        <LockEnabledMap>
-            <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.SummaryView:null" Value="false"/>
-            <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="true"/>
-        </LockEnabledMap>
+        <LockEnabledMap/>
         <ContributionMap/>
         <LayoutStateMap>
+            <LayoutState Name="com.teamcenter.rac.pse.PSEPerspective" NextCycleIndex="1" ApplicationCategoryID="MyAppCat">
+                <NextIDMap4PrimaryID>
+                    <NextID ViewID="com.teamcenter.rac.pse.PSEView" NextID="1"/>
+                </NextIDMap4PrimaryID>
+            </LayoutState>
             <LayoutState Name="com.teamcenter.rac.ui.perspectives.navigatorPerspective" NextCycleIndex="1" ApplicationCategoryID="MyAppCat">
                 <NextIDMap4ViewSecondaryID>
                     <NextID ViewID="com.teamcenter.rac.ui.views.TCComponentView" NextID="1"/>
@@ -48,10 +64,12 @@
     </ActiveMaps>
     <SavedMaps>
         <IsCompositeMap>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.pse.PSEView:null" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="false"/>
         </IsCompositeMap>
         <IsPrimaryMap>
             <Entry ViewKey="com.teamcenter.rac.gettingstarted.GettingStartedPerspective:com.teamcenter.rac.gettingstarted.GettingStartedView:null" Value="false"/>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.pse.PSEView:null" Value="true"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.processhistory.views.ProcessHistoryView:null" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.tdv.views.ThumbnailView:null" Value="false"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.DetailsView:null" Value="false"/>
@@ -62,18 +80,23 @@
         </IsPrimaryMap>
         <IsSecondaryMap/>
         <PrimaryIdMap>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.pse.PSEView:null" Value="P_PSEPerspective_PSEView_001"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="P_navigatorPerspective_TCComponentView_001"/>
         </PrimaryIdMap>
         <PrimaryUpIdMap/>
         <CycleIndexMap>
+            <Entry ViewKey="com.teamcenter.rac.pse.PSEPerspective:com.teamcenter.rac.pse.PSEView:null" Value="0"/>
             <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="0"/>
         </CycleIndexMap>
         <MainLocalIdMap/>
-        <LockEnabledMap>
-            <Entry ViewKey="com.teamcenter.rac.ui.perspectives.navigatorPerspective:com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" Value="true"/>
-        </LockEnabledMap>
+        <LockEnabledMap/>
         <ContributionMap/>
         <LayoutStateMap>
+            <LayoutState Name="com.teamcenter.rac.pse.PSEPerspective" NextCycleIndex="1" ApplicationCategoryID="MyAppCat">
+                <NextIDMap4PrimaryID>
+                    <NextID ViewID="com.teamcenter.rac.pse.PSEView" NextID="1"/>
+                </NextIDMap4PrimaryID>
+            </LayoutState>
             <LayoutState Name="com.teamcenter.rac.ui.perspectives.navigatorPerspective" NextCycleIndex="1" ApplicationCategoryID="MyAppCat">
                 <NextIDMap4ViewSecondaryID>
                     <NextID ViewID="com.teamcenter.rac.ui.views.TCComponentView" NextID="1"/>

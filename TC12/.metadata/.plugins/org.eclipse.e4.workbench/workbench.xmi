@@ -15,7 +15,7 @@
       <children xsi:type="advanced:Placeholder" xmi:id="_qGhtFM_OEeqB6ed8ALWhGw" elementId="LeftHandNavigationPlaceHolder" contributorURI="platform:/plugin/configuration" containerData="300" ref="_qGhtGs_OEeqB6ed8ALWhGw"/>
       <children xsi:type="basic:PartSashContainer" xmi:id="_qGhtFc_OEeqB6ed8ALWhGw" elementId="RACMain2StickyBottom" contributorURI="platform:/plugin/configuration" containerData="900" selectedElement="_qGhtFs_OEeqB6ed8ALWhGw">
         <children xsi:type="basic:PartSashContainer" xmi:id="_qGhtFs_OEeqB6ed8ALWhGw" elementId="RACPerspective2StickyRight" contributorURI="platform:/plugin/configuration" containerData="800" selectedElement="_qGhtF8_OEeqB6ed8ALWhGw" horizontal="true">
-          <children xsi:type="advanced:PerspectiveStack" xmi:id="_qGhtF8_OEeqB6ed8ALWhGw" elementId="RACPerspectiveStack" contributorURI="platform:/plugin/configuration" containerData="5000" selectedElement="_rjJcEM_OEeqB6ed8ALWhGw">
+          <children xsi:type="advanced:PerspectiveStack" xmi:id="_qGhtF8_OEeqB6ed8ALWhGw" elementId="RACPerspectiveStack" contributorURI="platform:/plugin/configuration" containerData="5000" selectedElement="_wOgtEM_QEeqo_ONV2ni2Bw">
             <children xsi:type="advanced:Perspective" xmi:id="_qfkfMM_OEeqB6ed8ALWhGw" elementId="com.teamcenter.rac.gettingstarted.GettingStartedPerspective" selectedElement="_qfkfMc_OEeqB6ed8ALWhGw" label="&#x5165;&#x95e8;" iconURI="platform:/plugin/com.teamcenter.rac.aifrcp/icons/defaultapplication_16.png">
               <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
               <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
@@ -127,7 +127,6 @@
                         <children xsi:type="basic:PartSashContainer" xmi:id="_rjJcGM_OEeqB6ed8ALWhGw" containerData="7000" selectedElement="_rjJcGc_OEeqB6ed8ALWhGw" horizontal="true">
                           <children xsi:type="basic:PartSashContainer" xmi:id="_rjJcGc_OEeqB6ed8ALWhGw" containerData="4000" selectedElement="_rjJcGs_OEeqB6ed8ALWhGw">
                             <children xsi:type="basic:PartStack" xmi:id="_rjJcGs_OEeqB6ed8ALWhGw" elementId="RAC_Folder_UL" containerData="6000" selectedElement="_rjJcG8_OEeqB6ed8ALWhGw">
-                              <tags>active</tags>
                               <children xsi:type="advanced:Placeholder" xmi:id="_rjJcG8_OEeqB6ed8ALWhGw" elementId="com.teamcenter.rac.ui.views.TCComponentView:navigatorPerspective_TCComponentView_001" ref="_ri-c8M_OEeqB6ed8ALWhGw" closeable="true">
                                 <tags>View</tags>
                                 <tags>categoryTag:&#x5176;&#x4ed6;</tags>
@@ -179,6 +178,71 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_rjJcKc_OEeqB6ed8ALWhGw" elementId="org.eclipse.ui.editorss" toBeRendered="false" containerData="8000" ref="_qfVOoM_OEeqB6ed8ALWhGw"/>
               </children>
             </children>
+            <children xsi:type="advanced:Perspective" xmi:id="_wOgtEM_QEeqo_ONV2ni2Bw" elementId="com.teamcenter.rac.pse.PSEPerspective" selectedElement="_wOgtEc_QEeqo_ONV2ni2Bw" label="&#x7ed3;&#x6784;&#x7ba1;&#x7406;&#x5668;" iconURI="platform:/plugin/com.teamcenter.rac.pse/icons/pseapplication_16.png">
+              <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
+              <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
+              <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
+              <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
+              <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+              <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
+              <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
+              <tags>persp.viewSC:com.teamcenter.rac.aifrcp.BrowserView</tags>
+              <tags>persp.viewSC:org.eclipse.ui.views.ProgressView</tags>
+              <tags>persp.viewSC:org.eclipse.ui.views.PropertySheet</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.ui.perspectives.navigatorPerspective</tags>
+              <tags>persp.viewSC:com.teamcenter.rac.pse.PSEView</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.pse.PSEPerspective</tags>
+              <tags>persp.viewSC:com.teamcenter.rac.grb.GraphOverView</tags>
+              <tags>persp.viewSC:com.teamcenter.rac.grb.ImageThumbnailView</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.caese.CAESEPerspective</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.classification.icm.ClassificationPerspective</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.cme.collaborationcontext.CollaborationContextPerspective</tags>
+              <tags>persp.viewSC:com.teamcenter.rac.cme.mpp.EWIPreviewView</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.designcontext.DesignContextPerspective</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.workflow.processviewer.WorkflowViewerPerspective</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.architecturemodeler.PlatformDesignerPerspective</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.schedule.ScheduleManagerPerspective</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.tcsim.caeperspective</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.validation.ValidationPerspective</tags>
+              <tags>persp.viewSC:com.teamcenter.rac.tcgrb.TCGraphView</tags>
+              <tags>persp.perspSC:com.teamcenter.rac.tcgrb.perspectives.RelationBrowserPerspective</tags>
+              <children xsi:type="basic:PartSashContainer" xmi:id="_wOgtEc_QEeqo_ONV2ni2Bw" selectedElement="_wOgtEs_QEeqo_ONV2ni2Bw" horizontal="true">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_wOgtEs_QEeqo_ONV2ni2Bw" containerData="2000" selectedElement="_wOgtFM_QEeqo_ONV2ni2Bw" horizontal="true">
+                  <children xsi:type="basic:PartStack" xmi:id="_wOgtE8_QEeqo_ONV2ni2Bw" elementId="RAC_Folder_W" toBeRendered="false" containerData="2000"/>
+                  <children xsi:type="basic:PartSashContainer" xmi:id="_wOgtFM_QEeqo_ONV2ni2Bw" containerData="8000" selectedElement="_wOgtFc_QEeqo_ONV2ni2Bw" horizontal="true">
+                    <children xsi:type="basic:PartSashContainer" xmi:id="_wOgtFc_QEeqo_ONV2ni2Bw" containerData="8000" selectedElement="_wOgtF8_QEeqo_ONV2ni2Bw">
+                      <children xsi:type="basic:PartStack" xmi:id="_wOgtFs_QEeqo_ONV2ni2Bw" elementId="RAC_Folder_N" toBeRendered="false" containerData="2000"/>
+                      <children xsi:type="basic:PartSashContainer" xmi:id="_wOgtF8_QEeqo_ONV2ni2Bw" containerData="8000" selectedElement="_wOgtGM_QEeqo_ONV2ni2Bw">
+                        <children xsi:type="basic:PartSashContainer" xmi:id="_wOgtGM_QEeqo_ONV2ni2Bw" containerData="7000" selectedElement="_wOgtGc_QEeqo_ONV2ni2Bw" horizontal="true">
+                          <children xsi:type="basic:PartSashContainer" xmi:id="_wOgtGc_QEeqo_ONV2ni2Bw" containerData="4000" selectedElement="_wOgtGs_QEeqo_ONV2ni2Bw">
+                            <children xsi:type="basic:PartStack" xmi:id="_wOgtGs_QEeqo_ONV2ni2Bw" elementId="RAC_Folder_UL" containerData="6000" selectedElement="_wOgtG8_QEeqo_ONV2ni2Bw">
+                              <tags>active</tags>
+                              <children xsi:type="advanced:Placeholder" xmi:id="_wOgtG8_QEeqo_ONV2ni2Bw" elementId="com.teamcenter.rac.pse.PSEView" ref="_wOXjIM_QEeqo_ONV2ni2Bw" closeable="true">
+                                <tags>View</tags>
+                                <tags>categoryTag:&#x5e94;&#x7528;&#x7a0b;&#x5e8f;</tags>
+                              </children>
+                            </children>
+                            <children xsi:type="basic:PartStack" xmi:id="_wOgtHM_QEeqo_ONV2ni2Bw" elementId="RAC_Folder_LL" toBeRendered="false" containerData="4000"/>
+                          </children>
+                          <children xsi:type="basic:PartSashContainer" xmi:id="_wOgtHc_QEeqo_ONV2ni2Bw" toBeRendered="false" containerData="6000">
+                            <children xsi:type="basic:PartStack" xmi:id="_wOgtHs_QEeqo_ONV2ni2Bw" elementId="RAC_Folder_UR" toBeRendered="false" containerData="5000"/>
+                            <children xsi:type="basic:PartStack" xmi:id="_wOgtH8_QEeqo_ONV2ni2Bw" elementId="RAC_Folder_LR" toBeRendered="false" containerData="5000">
+                              <children xsi:type="advanced:Placeholder" xmi:id="_wOgtIM_QEeqo_ONV2ni2Bw" elementId="org.eclipse.ui.views.PropertySheet" toBeRendered="false" ref="_qfiqAM_OEeqB6ed8ALWhGw" closeable="true">
+                                <tags>View</tags>
+                                <tags>categoryTag:&#x5e38;&#x89c4;</tags>
+                              </children>
+                            </children>
+                          </children>
+                        </children>
+                        <children xsi:type="basic:PartStack" xmi:id="_wOgtIc_QEeqo_ONV2ni2Bw" elementId="RAC_Folder_S" toBeRendered="false" containerData="3000"/>
+                      </children>
+                    </children>
+                    <children xsi:type="basic:PartStack" xmi:id="_wOgtIs_QEeqo_ONV2ni2Bw" elementId="RAC_Folder_E" toBeRendered="false" containerData="2000"/>
+                  </children>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_wOgtI8_QEeqo_ONV2ni2Bw" elementId="org.eclipse.ui.editorss" toBeRendered="false" containerData="8000" ref="_qfVOoM_OEeqB6ed8ALWhGw"/>
+              </children>
+            </children>
           </children>
           <children xsi:type="basic:PartStack" xmi:id="_qGhtGM_OEeqB6ed8ALWhGw" elementId="stickyFolderRight" contributorURI="platform:/plugin/configuration" toBeRendered="false" containerData="100">
             <children xsi:type="advanced:Placeholder" xmi:id="_q9PSo8_OEeqB6ed8ALWhGw" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_q9PSos_OEeqB6ed8ALWhGw" closeable="true">
@@ -186,6 +250,22 @@
               <tags>categoryTag:Help</tags>
             </children>
             <children xsi:type="advanced:Placeholder" xmi:id="_q9PSpc_OEeqB6ed8ALWhGw" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_q9PSpM_OEeqB6ed8ALWhGw" closeable="true">
+              <tags>View</tags>
+              <tags>categoryTag:&#x5e38;&#x89c4;</tags>
+            </children>
+            <children xsi:type="advanced:Placeholder" xmi:id="_vs2Kdc_QEeqo_ONV2ni2Bw" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_q9PSos_OEeqB6ed8ALWhGw" closeable="true">
+              <tags>View</tags>
+              <tags>categoryTag:Help</tags>
+            </children>
+            <children xsi:type="advanced:Placeholder" xmi:id="_vs2Kds_QEeqo_ONV2ni2Bw" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_q9PSpM_OEeqB6ed8ALWhGw" closeable="true">
+              <tags>View</tags>
+              <tags>categoryTag:&#x5e38;&#x89c4;</tags>
+            </children>
+            <children xsi:type="advanced:Placeholder" xmi:id="_BnUK9c_cEeqon-Aa3mK-4A" elementId="org.eclipse.help.ui.HelpView" toBeRendered="false" ref="_q9PSos_OEeqB6ed8ALWhGw" closeable="true">
+              <tags>View</tags>
+              <tags>categoryTag:Help</tags>
+            </children>
+            <children xsi:type="advanced:Placeholder" xmi:id="_BnUK9s_cEeqon-Aa3mK-4A" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_q9PSpM_OEeqB6ed8ALWhGw" closeable="true">
               <tags>View</tags>
               <tags>categoryTag:&#x5e38;&#x89c4;</tags>
             </children>
@@ -209,6 +289,46 @@
             <tags>categoryTag:&#x8bca;&#x65ad;</tags>
           </children>
           <children xsi:type="advanced:Placeholder" xmi:id="_q9PSoc_OEeqB6ed8ALWhGw" elementId="com.teamcenter.rac.debug.views.DBWalkerView" toBeRendered="false" ref="_q9PSoM_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x8bca;&#x65ad;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_vs2KcM_QEeqo_ONV2ni2Bw" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_q9OrkM_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x5e38;&#x89c4;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_vs2Kcc_QEeqo_ONV2ni2Bw" elementId="org.eclipse.ui.console.ConsoleView" toBeRendered="false" ref="_q9Orks_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x5e38;&#x89c4;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_vs2Kcs_QEeqo_ONV2ni2Bw" elementId="com.teamcenter.rac.debug.views.PrintObjectView" toBeRendered="false" ref="_q9OrlM_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x8bca;&#x65ad;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_vs2Kc8_QEeqo_ONV2ni2Bw" elementId="com.teamcenter.rac.debug.views.CommunicationMonitorView" toBeRendered="false" ref="_q9Orls_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x8bca;&#x65ad;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_vs2KdM_QEeqo_ONV2ni2Bw" elementId="com.teamcenter.rac.debug.views.DBWalkerView" toBeRendered="false" ref="_q9PSoM_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x8bca;&#x65ad;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_BnUK8M_cEeqon-Aa3mK-4A" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_q9OrkM_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x5e38;&#x89c4;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_BnUK8c_cEeqon-Aa3mK-4A" elementId="org.eclipse.ui.console.ConsoleView" toBeRendered="false" ref="_q9Orks_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x5e38;&#x89c4;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_BnUK8s_cEeqon-Aa3mK-4A" elementId="com.teamcenter.rac.debug.views.PrintObjectView" toBeRendered="false" ref="_q9OrlM_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x8bca;&#x65ad;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_BnUK88_cEeqon-Aa3mK-4A" elementId="com.teamcenter.rac.debug.views.CommunicationMonitorView" toBeRendered="false" ref="_q9Orls_OEeqB6ed8ALWhGw" closeable="true">
+            <tags>View</tags>
+            <tags>categoryTag:&#x8bca;&#x65ad;</tags>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_BnUK9M_cEeqon-Aa3mK-4A" elementId="com.teamcenter.rac.debug.views.DBWalkerView" toBeRendered="false" ref="_q9PSoM_OEeqB6ed8ALWhGw" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:&#x8bca;&#x65ad;</tags>
           </children>
@@ -287,8 +407,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view>&#xD;&#xA;&lt;OpenedObject COMPONENT_TYPE=&quot;Fnd0HomeFolder&quot; TOBECLOSED_FLAG=&quot;false&quot; VIEW_TOOLTIP=&quot;Home&amp;#x0A;&#x5f53;&#x524d;&#x8f93;&#x5165;&#xff1a; Home&quot; loginuser=&quot;wiely&quot; partName=&quot;Home&quot; site=&quot;-1814425494&quot; uid=&quot;g1T9R9Su50aAmC&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:&#x5176;&#x4ed6;</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_rkaAUM_OEeqB6ed8ALWhGw" elementId="com.teamcenter.rac.ui.views.TCComponentView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -336,6 +454,20 @@
       <persistedState key="originalCompatibilityViewBundle" value="com.teamcenter.rac.processhistory"/>
       <tags>View</tags>
       <tags>categoryTag:Teamcenter</tags>
+    </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_wOXjIM_QEeqo_ONV2ni2Bw" elementId="com.teamcenter.rac.pse.PSEView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="&#x7ed3;&#x6784;&#x7ba1;&#x7406;&#x5668;" iconURI="platform:/plugin/com.teamcenter.rac.pse/icons/pseapplication_16.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="com.teamcenter.rac.pse"/>
+      <persistedState key="originalCompatibilityViewClass" value="com.teamcenter.rac.pse.PSEView"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:&#x5e94;&#x7528;&#x7a0b;&#x5e8f;</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
+      <menus xmi:id="_wPkdAM_QEeqo_ONV2ni2Bw" elementId="com.teamcenter.rac.pse.PSEView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_wPkdAc_QEeqo_ONV2ni2Bw" elementId="com.teamcenter.rac.pse.PSEView"/>
     </sharedElements>
     <trimBars xmi:id="_qGhtG8_OEeqB6ed8ALWhGw" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/configuration">
       <children xsi:type="menu:ToolBar" xmi:id="_qGhtHM_OEeqB6ed8ALWhGw" elementId="toolbarStart" contributorURI="platform:/plugin/configuration" toBeRendered="false">
@@ -4094,6 +4226,7 @@
   <commands xmi:id="_qU4SIM_OEeqB6ed8ALWhGw" elementId="AUTOGEN:::org.eclipse.ui.cheatsheets.actionSet/org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction" commandName="Cheat Sheets..." category="_qG3EW8_OEeqB6ed8ALWhGw"/>
   <commands xmi:id="_qU6uYM_OEeqB6ed8ALWhGw" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Text Editor Bookmark Ruler Action" category="_qG3EW8_OEeqB6ed8ALWhGw"/>
   <commands xmi:id="_qU6uYc_OEeqB6ed8ALWhGw" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Text Editor Ruler Single-Click" category="_qG3EW8_OEeqB6ed8ALWhGw"/>
+  <commands xmi:id="_u7F9Yc_QEeqo_ONV2ni2Bw" elementId="com.tc.demo.BOMCheck" commandName="BOM&#x7248;&#x672c;&#x5dee;&#x5f02;&#x6bd4;&#x8f83;" category="_qG3EW8_OEeqB6ed8ALWhGw"/>
   <addons xmi:id="_qGhtPM_OEeqB6ed8ALWhGw" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/configuration" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_qGhtPc_OEeqB6ed8ALWhGw" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/configuration" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_qGhtPs_OEeqB6ed8ALWhGw" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/configuration" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
