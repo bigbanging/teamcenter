@@ -53,7 +53,7 @@
                             <with variable="rac_command_suppression">
                             	<not>
                                 	<iterate operator="or">
-                                    	<equals value="com.tc.demo.BOMCheck" />
+                                    	<equals value="com.tc.demo.CustomView" />
                                     </iterate>
                                 </not>
                             </with>

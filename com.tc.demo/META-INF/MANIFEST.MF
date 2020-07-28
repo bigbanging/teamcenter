@@ -12,7 +12,10 @@ Require-Bundle: org.eclipse.ui,
  com.teamcenter.rac.common;bundle-version="12000.3.0",
  com.teamcenter.rac.kernel;bundle-version="12000.3.0",
  com.teamcenter.rac.neva;bundle-version="2.0.0",
- com.teamcenter.rac.util;bundle-version="12000.3.0"
+ com.teamcenter.rac.util;bundle-version="12000.3.0",
+ org.junit
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: com.tc.demo
 Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/log4j-1.2.17.jar,
+ .
