@@ -18,4 +18,5 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Automatic-Module-Name: com.tc.demo
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: lib/log4j-1.2.17.jar,
+ lib/dom4j-1.6.1.jar,
  .
